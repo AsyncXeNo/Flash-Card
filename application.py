@@ -4,7 +4,7 @@ from data import WordsData
 
 class Application(object):
     def __init__(self):
-        self.data = WordsData("data/french_words.csv")
+        self.data = WordsData("data/words.csv")
         self.current_entry = None
         self.can_mark = False
         self.score = 0
